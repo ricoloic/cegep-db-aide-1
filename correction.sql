@@ -378,7 +378,7 @@ GROUP BY d.id;
 -- +-----------------------------+-----------------------+-----------------+
 SELECT SUM(IF(i.id IS NULL, 0, i.amount))             AS total_amount_of_invoice_money,
        COUNT(distinct a.id_client)                    AS amount_of_unique_client,
-       CONCAT(p.first_name, CONCAT(" ", p.last_name)) AS dentist_full_name
+       CONCAT(p.first_name, " ", p.last_name) AS dentist_full_name
 FROM dentist d
          JOIN person p ON d.id = p.id
          LEFT OUTER JOIN appointment a ON a.id_dentist = d.id
