@@ -55,14 +55,14 @@ Il se peut que certaines modifications soient demandées par le client.
 
 Pour cet exercice, le client ne vous a pas directement contacté pour créer la base de données, mais il vous arrive avec une base de données qui existe déjà.
 
-Il vous fournit donc un "snippet" SQL comme exemple de sa base de données. (snippet.sql)
+Il vous fournit donc un "snippet" SQL comme exemple de sa base de données. ([snippet.sql](./snippet.sql))
 
 1. Il vous faudra exécuter le script SQL fourni, ce qui créera une base de données, ses tables et insérera des données (tout cela dans votre environnement local)
-2. Il vous demande de créer les requêtes SQL qui se trouvent dans le fichier (requetes.sql)
+2. Il vous demande de créer les requêtes SQL qui se trouvent dans le fichier ([requete.sql](./requete.sql))
 
 _IMPORTANT_ - Les requêtes doivent être exécutées sur la base de données fournie par le client, sans changer la BD.
 
-Le document _correction.sql_ contient les corrections des requêtes SQL, mais il faut garder en tête que ce n'est pas parce que les requêtes sont faites différemment de celles que vous avez, que vous n'avez pas bien compris. Pour vous corriger, vous pouvez toujours copier les requêtes qui se trouvent dans le fichier de correction pour valider que les résultats de vos requêtes et celle de la correction donnent le même résultat.
+Le document _[correction.sql](./correction.sql)_ contient les corrections des requêtes SQL, mais il faut garder en tête que ce n'est pas parce que les requêtes sont faites différemment de celles que vous avez, que vous n'avez pas bien compris. Pour vous corriger, vous pouvez toujours copier les requêtes qui se trouvent dans le fichier de correction pour valider que les résultats de vos requêtes et celle de la correction donnent le même résultat.
 
 
 
